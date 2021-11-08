@@ -1,0 +1,61 @@
+.board {
+  min-width: 290px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.board_top {
+  display: flex;
+  /* padding: 5px 15px; */
+}
+
+.board_top_title {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.board_top_title span {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: whitesmoke;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.board_top_more {
+  position: relative;
+  cursor: pointer;
+}
+
+.board_dropdown {
+  width: 150px;
+  background-color: lightgray;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 1px 0 20px rgba(0, 0, 0, 0.05);
+}
+.board_dropdown p {
+  cursor: pointer;
+}
+
+.board_cards {
+  flex: 1;
+  background-color: #efe8da;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 10px;
+  overflow-y: auto;
+}

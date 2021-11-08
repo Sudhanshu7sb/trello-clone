@@ -1,0 +1,19 @@
+.label {
+  border-radius: 10px;
+  padding: 3px 10px;
+  background-color: violet;
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: whitesmoke;
+}
+
+.label svg {
+  margin: 10px 0;
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  cursor: pointer;
+}
