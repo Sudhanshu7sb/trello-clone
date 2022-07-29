@@ -14,7 +14,7 @@ function CardInfo(props) {
 
   useEffect(() => {
     props.updateCard(props.card.id, props.boardId, values);
-  }, [values]);
+  });
 
   const calculatePercent = () => {
     if (values.tasks?.length === 0) return "0";
